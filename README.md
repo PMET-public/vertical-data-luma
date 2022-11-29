@@ -9,3 +9,10 @@ Addition of the Data Installer: `composer config repositories.installer git http
 
 To add this package via composer: 
 `composer config repositories.luma git https://github.com/PMET-public/vertical-data-luma.git;composer require magentoese/vertical-data-luma:dev-main` No need to run `setup:upgrade`
+
+#### Usage
+Standalone - Adds Luma to an empty instance on default site/store. This is the default behavior
+`bin/magento gxd:datainstall MagentoEse_VerticalDataLuma`
+
+Website - Adds Luma as its own website in a multi-site configuration
+`bin/magento gxd:datainstall MagentoEse_VerticalDataLuma --load=website`
