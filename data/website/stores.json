@@ -13,7 +13,8 @@
             "site_code": "luma",
             "site_name": "Luma Website",
             "store_root_category": "Luma Catalog",
-            "theme": "Magento/luma"
+            "theme": "Magento/luma",
+            "host": "subdirectory"
         }
     }
 }
