@@ -158,7 +158,7 @@
                 },
                 {
                     "block_reference": "content.top",
-                    "entities": "{{categoryid key=\"what-is-new\"}},{{categoryid key=\"tops-women\"}},{{categoryid key=\"hoodies-and-sweatshirts-women\"}}",
+                    "entities": "{{categoryid key=\"what-is-new\"}}",
                     "instance_type": "Magento\\Cms\\Block\\Widget\\Block",
                     "layout_handle": "catalog_category_view_type_layered",
                     "page_for": "specific",
